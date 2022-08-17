@@ -1,0 +1,241 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body 
+{
+    background-color: #fbfaff;
+}
+
+div 
+{
+
+    width:100px;
+    height: 100px;
+    color:#ffF;
+    font-size: 15px;
+}
+
+
+
+.contenedor 
+{
+
+    width:100%;
+    height:100px;
+    background-color:#4169e2;
+    position: relative;
+}
+
+.header
+{
+    margin:5px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width:auto;
+    position: absolute;
+    left:83%;
+    top:15%;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.title
+{
+    background-color: #add9e6;
+    width:100%;
+    height: 50px;
+    border-top:1px solid #93d8e5;
+    border-bottom:1px solid #93d8e5;
+
+}
+
+
+.subtitle{
+
+    margin:5px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width:auto;
+    position: absolute;
+    left:82%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.table{
+
+    width:70%;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+   border-collapse: collapse;
+    margin-top: 5%;
+
+}
+
+
+table, tr, th{
+  
+    border: 1px solid black;
+    border-color:#eeedf2;
+}
+
+#title_table{
+
+    color:#5b5d61;
+    text-align: left;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+
+footer{
+    background-color: coral;
+    width:100%;
+    height:100%;
+    
+}
+
+#curso_docentes{
+    width:20%;
+    height:auto;
+    margin-left: 2%;
+}
+
+#contenido_tabla{
+
+    color:black;
+    width:100%;
+    height:100%;
+  
+}
+
+#cursos{
+
+    font-family: 'Courier New', Courier, monospace;
+    color:#373a3d;
+    width:auto;
+    height:auto;
+    position: absolute;
+    margin-top: 2.3%;
+    margin-left: 3%;
+    font-size:20px;
+}
+
+
+.select {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 18%;
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 7px 16px;
+        outline: 0;
+        border: 1px solid #000000;
+        border-radius: 9px;
+        background: #e6e6e6;
+        color: #7b7b7b;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: white;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #000000;
+            background-color: white;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 0px;
+    height: 0px;
+    border: solid #7b7b7b;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+
+#Año{
+    font-family: 'Courier New', Courier, monospace;
+    color:#373a3d;
+    width:auto;
+    height:auto;
+    position: absolute;
+    margin-top: 6.3%;
+    margin-left: 3%;
+    font-size:20px;
+}
+
+#select_dos{ margin-top:6%;}
+
+#Periodo{
+    font-family: 'Courier New', Courier, monospace;
+    color:#373a3d;
+    width:auto;
+    height:auto;
+    position: absolute;
+    margin-top: 10.3%;
+    margin-left: 3%;
+    font-size:20px;
+}
+
+#select_tres{ margin-top:10%;}
+
+.boton_uno{
+    position: absolute;
+    border: 2px solid #4169e2;
+    padding: 20px 80px;
+    color:black;
+    font-weight: 700;
+    font-size:15px;
+    text-decoration: none;
+    background-color: transparent;
+    transition: color 0.5s;
+    border-radius:15px ;
+    margin-top: 17%;
+    transform: translate(-50%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ 
+}
+
+.boton_uno:hover{
+
+    background-color: #4169e2;
+    color:white;
+    transition: 0.5s;
+}
+.boton{
+    background-color: black;
+    width:auto;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

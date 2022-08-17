@@ -1,0 +1,170 @@
+* 
+{
+    margin:0px;
+    padding: 0px;
+}
+
+body 
+{
+    background-color: #fbfaff;
+}
+
+div 
+{
+
+    width:100px;
+    height: 100px;
+    color:#ffF;
+    font-size: 15px;
+}
+
+
+
+.contenedor 
+{
+
+    width:100%;
+    height:100px;
+    background-color:#4169e2;
+    position: relative;
+}
+
+.header
+{
+    margin:5px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width:auto;
+    top:15%;
+    line-height: 15px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title
+{
+    background-color: #add9e6;
+    width:100%;
+    height: 50px;
+    border-top:1px solid #93d8e5;
+    border-bottom:1px solid #93d8e5;
+    text-align: center;
+    
+}
+
+
+.subtitle{
+
+    margin:5px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width:auto;
+    position: relative;
+    align-items: center;
+   
+   
+}
+
+
+.table{
+
+    width:70%;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+   border-collapse: collapse;
+    margin-top: 5%;
+
+}
+
+#title_table{
+
+    color:#5b5d61;
+    text-align: left;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+
+
+
+#curso_docentes{
+    width:30%;
+    height:auto;
+    margin-left: 2%;
+}
+
+#contenido_tabla{
+
+    color:black;
+    width:100%;
+    height:100%;
+  
+}
+
+#imagen{
+
+    height:auto;
+    width:45px;
+    margin-left:1%;
+    position:absolute;
+    
+}
+
+img{
+
+    width:100%;
+    height:100%;
+}
+
+#text_imagen{
+
+    width:55px;
+    height:auto;
+    position:absolute;
+    margin-left: 4%;
+    margin-top: 0.3%;
+    color:#5b5d61;
+    font-family:monospace;
+  
+
+}
+
+
+.total{
+
+    width:100%;
+    height:60px;
+   
+     
+}
+
+.titulo{
+
+ 
+    width:100%;
+    height: 50px;
+    color:black;
+    position: relative;
+    align-items: center;
+    text-align: center;
+
+}
+
+#Notita{
+
+    width: 70%;
+    background-color: #e0efde;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #e4e7e4;
+    color:black;
+    font-size: 15px;
+    line-height: 30px;
+    text-align:justify;
+   
+}
+

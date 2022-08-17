@@ -1,0 +1,278 @@
+* 
+{
+    margin:0px;
+    padding: 0px;
+
+   
+
+
+}
+
+body 
+{
+    background-color: #fbfaff;
+}
+
+div 
+{
+
+    width:100px;
+    height: 100px;
+    color:#ffF;
+    font-size: 15px;
+    
+}
+
+
+
+.contenedor 
+{
+
+    width:100%;
+    height:100px;
+    background-color:#4169e2;
+    position: relative;
+}
+
+.header
+{
+    margin:5px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width:auto;
+    position: absolute;
+    left:83%;
+    top:15%;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.title
+{
+    background-color: #add9e6;
+    width:100%;
+    height: 50px;
+    border-top:1px solid #93d8e5;
+    border-bottom:1px solid #93d8e5;
+}
+
+
+.subtitle{
+
+    margin:5px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width:auto;
+    position: absolute;
+    left:82%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.table{
+
+    width:70%;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+   border-collapse: collapse;
+    margin-top: 5%;
+
+}
+
+.registro{
+
+ 
+    margin-left:auto;
+    margin-right:auto;
+   
+    border-collapse: collapse;
+    width:100%;
+    height:100%;
+    text-align: center;
+    
+}
+
+.registro tr td{
+    border:1px solid black;
+}
+
+
+
+
+#title_table{
+
+    color:#5b5d61;
+    text-align: left;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+
+footer{
+    background-color: coral;
+    width:100%;
+    height:100%;
+    
+}
+
+#curso_docentes{
+    width:60%;
+    height:auto;
+    margin-left: 2%;
+}
+
+#registro_uno{
+
+    height:15%;
+}
+
+#contenido_tabla{
+
+  
+    margin-top: 3%;
+    color:black;
+    width:100%;
+    height:100%;
+ 
+  
+}
+
+
+
+#imagen{
+
+    height:auto;
+    width:55px;
+    margin-left:1%;
+    position:absolute;
+    
+}
+
+img{
+
+    width:100%;
+    height:100%;
+}
+
+
+
+#text_imagen{
+
+    width:55px;
+    height:auto;
+    position:absolute;
+    margin-left: 5%;
+    margin-top: 0.5%;
+    color:#5b5d61;
+    font-family:monospace;
+
+}
+
+
+.total{
+
+    width:100%;
+    height:60px;
+   
+     
+}
+
+
+.edicion{
+
+    width:60%;
+    height:40%;
+    border: 2px solid #4169e2;
+    color:black;
+    font-weight: 700;
+    font-size:15px;
+    text-decoration: none;
+    background-color: transparent;
+    transition: color 0.5s;
+    border-radius:15px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.edicion:hover{
+
+    background-color: #4169e2;
+    color:white;
+    transition: 0.5s;
+}
+
+.salir{
+    width:100px;
+    height: 100px;
+    background-color: #4169e2;
+}
+
+.boton{
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:10%;
+    background-color: #4169e2;
+    position: absolute;
+
+}
+
+.boton_uno{
+    border: 2px solid #4169e2;
+    position: absolute;
+    padding: 20px 50px;
+    color:black;
+    width:200px;
+    font-weight: 700;
+    font-size:15px;
+    text-decoration: none;
+    background-color: transparent;
+    transition: color 0.5s;
+    border-radius:15px ;
+    margin-right: auto;
+    margin-left: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ 
+}
+
+.boton_uno:hover{
+
+    background-color: #4169e2;
+    color:white;
+    transition: 0.5s;
+}
+
+.caja_padre{
+
+    
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+    position: relative;
+}
+
+.caja_hijo_uno{
+    position: absolute;
+    left:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja_hijo_dos{
+    position: absolute;
+    right:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+   
+   
